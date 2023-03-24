@@ -1,10 +1,9 @@
 import React from 'react'
-import Typed from 'react-typed';
 import ulm from '../assets/ulm_logo.png';
+import { TypeAnimation } from 'react-type-animation';
 
 
 const Hero = () => {
-
   return (
     <div className=''>
         <img className='w-[180px] mx-auto my-6'src={ulm} alt="/" />
@@ -18,16 +17,19 @@ const Hero = () => {
                 The Pre-Medical Advisory Committee
             </h1>
             <div className='flex justify-center items-center'>
-                <p className='md:text-3xl text-[#812633] sm:text-2xl text-xl font-bold py-4'>
-                    Application Preparation for
-                </p>
-                <Typed
-                    className='flex md:text-3xl text-[#812633] sm:text-xl text-xl font-bold md:pl-4 pl-2' 
-                    strings={['Pre-Medical','Pre-Dental']} 
-                    typeSpeed={130} 
-                    backSpeed={160} 
-                    loop
-                />
+                <span className='md:text-3xl text-[#812633] sm:text-2xl text-xl font-bold py-4'>
+                    <span>Application Preparation for</span>{' '} 
+                    <TypeAnimation
+                    sequence={[
+                    'Pre-Medical',
+                    2000,
+                    'Pre-Dental',
+                    2000,
+                    ]}
+                    repeat={Infinity}
+                    speed={20}
+                    />
+                </span>
             </div>
             <p className='md:text-2xl text-xl font-bold text-black]'>
             Prepare for success and nail your application with our guidance.

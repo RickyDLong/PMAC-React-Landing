@@ -1,23 +1,12 @@
 import React from 'react'
-import dental from '../assets/dental_01.jpg'
-import interview from '../assets/interview-2.png'
-import Lottie from 'react-lottie';
-import animationData from '../lotties/healthChart.json';
+
 
 function committee() {
-    
-    const defaultOptions = {
-        autoplay: true,
-        animationData: animationData,
-        rendererSettings: {
-            SVGAnimatedPreserveAspectRatio: "xMidYMid slice"
-        }
-    };
+
   return (
     <div className='w-full bg-[#bcbcbc] py-16 px-4 mt-[140px]'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             
-            <Lottie options={defaultOptions} height={400} width={400}/>
             <div className='flex flex-col justify-center'>
                 <p className='text-[#3B0000] font-bold uppercase'>
                 Our Purpose
