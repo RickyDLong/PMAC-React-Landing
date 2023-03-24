@@ -3,8 +3,8 @@ import Typed from 'react-typed';
 import ulm from '../assets/ulm_logo.png';
 
 
-
 const Hero = () => {
+
   return (
     <div className=''>
         <img className='w-[180px] mx-auto my-6'src={ulm} alt="/" />
@@ -32,7 +32,7 @@ const Hero = () => {
             <p className='md:text-2xl text-xl font-bold text-black]'>
             Prepare for success and nail your application with our guidance.
             </p>
-                <a href="/https://pmac-beta.vercel.app/">
+                <a href="https://pmac-beta.vercel.app/">
                 <button className='bg-[#9c9c9c] w-[200px] hover:drop-shadow-xl rounded-md text-lg my-6 mx-auto px-3 text-black'>Get Started</button>
                 </a>
         </div>
