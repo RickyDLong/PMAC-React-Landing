@@ -9,8 +9,8 @@
     }
 
    return (
-     <div className='flex justify-between  bg-ulm_maroon items-center h-10 max-w-[1240px] mx-auto px-4 text-white'>
-        <h1 className='w-full text-3xl font-bold text-white'>ULM</h1>
+     <div className='flex justify-between items-center h-10 max-w-[1240px] mx-auto px-4 text-black'>
+        <h1 className='w-full text-3xl font-bold text-ulm_maroon'>ULM</h1>
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>
             <li className='p-4'>Faculty</li>
