@@ -2,7 +2,7 @@ import React from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 
 
-function committee() {
+function purpose() {
 
   return (
     <div className='w-full bg-[#bcbcbc] py-16 px-4 mt-[140px]'>
@@ -24,7 +24,7 @@ function committee() {
                 Empowering pre-med students
                 </h1>
                 <p className=''>
-                Join forces with ULM's Pre-Medical Advisory Committee, 
+                Join forces with ULM's Pre-Medical Advisory purpose, 
                 a dedicated group of faculty members from across campus. 
                 Our faculty provide personalized guidance and support to 
                 pre-medical students during their junior and senior year, 
@@ -37,4 +37,4 @@ function committee() {
   )
 }
 
-export default committee
+export default purpose

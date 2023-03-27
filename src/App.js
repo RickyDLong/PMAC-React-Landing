@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Committee from './components/Committee';
+import Purpose from './components/Purpose';
 import Apply from './components/Apply';
 import Player from './components/Player';
 
@@ -11,7 +11,7 @@ function App() {
     <div>
       <Navbar />  
       <Hero />
-      <Committee />
+      <Purpose />
       <Apply />
       <Player />
     </div>
