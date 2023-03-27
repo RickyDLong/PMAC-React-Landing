@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import chart from '../assets/chart_color.jpg';
 
 
 function committee() {
@@ -6,7 +7,7 @@ function committee() {
   return (
     <div className='w-full bg-[#bcbcbc] py-16 px-4 mt-[140px]'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            
+            <img className='w-[250px] mx-auto my-4' src={chart} alt='' ></img>
             <div className='flex flex-col justify-center'>
                 <p className='text-[#3B0000] font-bold uppercase'>
                 Our Purpose

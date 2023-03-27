@@ -21,7 +21,7 @@
         <div onClick={handleNav} className='block md:hidden'>
             {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
         </div>
-        <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r z-40 border-stone-900 bg-[#ffffff] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r z-40 border-stone-900 bg-[#ffffff] ease-in-out duration-500' : 'fixed left-[-100%]'}>
         <h1 className='w-full text-3xl font-bold text-[#000000] m-4'>ULM</h1>
             <ul className='uppercase p-4 border-b border-stone-900'>
                 <li className='p-4 border-b border-stone-900'>Home</li>

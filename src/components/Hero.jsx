@@ -6,10 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
 const Hero = () => {
   return (
     <div className=''>
-        <img className='w-[180px] mx-auto my-6'src={ulm} alt="/" />
+        <img className='w-[180px] mx-auto my-12'src={ulm} alt="/" />
 
     <div className='text-[#3B0000]'>
-        <div className='max-w-[800px] mt-[40px] md:text-6xl w-full h-auto mx-auto flex text-center flex-col justify-center'>
+        <div className='max-w-[800px] mt-[70px] md:text-6xl w-full h-auto mx-auto flex text-center flex-col justify-center'>
             <p className='text-[#812633] font-bold p-2'>
                 Welcome to
             </p>
@@ -34,8 +34,10 @@ const Hero = () => {
             <p className='md:text-2xl text-xl font-bold text-black]'>
             Prepare for success and nail your application with our guidance.
             </p>
-                <a href="https://pmac-beta.vercel.app/">
-                <button className='bg-[#9c9c9c] w-[200px] hover:drop-shadow-xl rounded-md text-lg my-6 mx-auto px-3 text-black'>Get Started</button>
+                <a href="https://pmac-beta-opnaptos3-prabinbasnet09.vercel.app/">
+                <button className='bg-[#9c9c9c] w-[200px] rounded-md text-lg my-6 mx-auto font-bold px-2 text-ulm_red'>
+                Get Started
+                </button>
                 </a>
         </div>
     </div>
