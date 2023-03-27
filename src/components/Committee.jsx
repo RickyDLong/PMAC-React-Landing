@@ -1,5 +1,5 @@
 import React from 'react';
-import chart from '../assets/chart_color.jpg';
+import { Player } from '@lottiefiles/react-lottie-player';
 
 
 function committee() {
@@ -7,7 +7,15 @@ function committee() {
   return (
     <div className='w-full bg-[#bcbcbc] py-16 px-4 mt-[140px]'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            <img className='w-[250px] mx-auto my-4' src={chart} alt='' ></img>
+        <div className='container w-[350px] mx-auto'>   
+          {/*Animated Student*/}
+          <Player
+              src='https://assets6.lottiefiles.com/packages/lf20_NGvWMuBBLg.json'
+              className='Student'
+              loop
+              autoplay
+          />
+        </div>
             <div className='flex flex-col justify-center'>
                 <p className='text-[#3B0000] font-bold uppercase'>
                 Our Purpose

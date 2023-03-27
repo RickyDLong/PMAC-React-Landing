@@ -3,6 +3,7 @@ import ulm from '../assets/ulm_logo.png';
 import { TypeAnimation } from 'react-type-animation';
 
 
+
 const Hero = () => {
   return (
     <div className=''>
